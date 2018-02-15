@@ -1,0 +1,22 @@
+.demo-card-event>.dutch {
+    color: #fff;
+    background: url('../img/teemo.png') center right 10% no-repeat  ;
+    text-align: center;
+}
+
+demo-card-event.mdl-card {
+    width: 290px;
+    min-height: 0;
+}
+
+@media only screen and (min-width: 480px){
+    .demo-card-event.mdl-card {
+        width: 390px;
+    }
+}
+
+@media only screen and (min-width:1080px) {
+    .demo-card-event.mdl-card {
+        width: 490px;
+    }
+}
