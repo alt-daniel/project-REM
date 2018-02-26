@@ -1,10 +1,15 @@
-.demo-card-event>.dutch {
-    color: #fff;
-    background: url('../img/teemo.png') center right 10% no-repeat  ;
-    text-align: center;
+html{
+    box-sizing : border-box;
 }
 
-demo-card-event.mdl-card {
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+.mdl-grid {
+    margin: 0 auto;
+}
+.demo-card-event.mdl-card {
     width: 290px;
     min-height: 0;
 }
@@ -20,3 +25,29 @@ demo-card-event.mdl-card {
         width: 490px;
     }
 }
+
+.demo-card-event>.dutch {
+    color: #fff;
+    background: url('../img/teemo.png') center left 5% no-repeat #00b0ff;
+    text-align: center;
+}
+
+
+.mdl-card__title-text {
+    margin-left: 70px;
+}
+
+.mdl-card__actions {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+
+.mdl-layout__header-row>.header_text{
+    font-weight: 200;
+    text-align: left;
+}
+
+
+
